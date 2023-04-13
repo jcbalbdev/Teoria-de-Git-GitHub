@@ -14,6 +14,8 @@ y descargar la ultima version segun el sistema operativo que tengas.
 > * `cd ..` : Seremos capaces de movernos a una carpeta o directorio anterior. 
 > * `pwd` : Nos muestra la ruta exacta donde nos encontramos.
 > * `mkdir "nueva carpeta"` : Podremos crear una carpeta o directorio (nueva carpeta).
+> * `touch tuarchivo.txt` : Crea un nuevo archivo en el directorio seleccionado.
+> * `type nul > tuarchivo.txt` : Crea un archivo nuevo en windows (esta es una alternativa a `touch tuarchivo.txt`).
 > * `code .` : Abre VScode. 
 
 ## **Configuracion de Git**
@@ -70,7 +72,9 @@ Antes de utilizar los comandos basicos de git debemos configurar git ,en nuestra
 * `git checkout ./README.md` : Comando que nos permite volver a una version anterior de un archivo partiendo desde una version que no fue agregada con `git add`.
 * `git reset` : Comando que nos permite ver que ficheros han sido modificados pero aun no han sido agregados a la rama ,para luego aplicar el comando `git checkout` y volver a su version anterior.
 * `git config --global alias.ponunalias "log --graph"` : Comando que nos permite poner un alias a un comando de git ( en nuestro caso estamos poniendo el alias de **ponunalias** al comando `log --graph` ) .
-* `git --help`, `git -h` : Comando que nos ayuda a ver algunos comando basicos (en este caso de git). 
+  
+  > **Nota** : Si queremos que git ignore un archivo debemos agregar el archivo `.gitignore` en nuestra carpeta principal. Dentro de esta carpeta debemos escribir el archivo o archivos que deseamos ignorar ( de esta manera `**/.archivo_ignorado.txt` )
+* `git --help`, `git -h` : Comando que nos ayuda a ver algunos comando basicos (en este caso de git).
 
 
 
