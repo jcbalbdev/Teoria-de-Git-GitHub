@@ -27,14 +27,12 @@ Antes de utilizar los comandos basicos de git debemos configurar git ,en nuestra
 ## **Comandos utiles**
 * `git init` : Permite que git funcione en una carpeta o directorio (raiz) seleccionado. Con este comando inicializamos un control de versiones en la carpeta seleccionada.
 
-  >*Nota 1* : Despues de ingresar el comando ( `git init` ) Vscode nos mostrara la letra ( `U` ) al costado de los archivos. **Ejm** : `README.md    U`
-  >
-  >*Nota 2* : Despues de ingresar el comando ( `git init` ) la terminal nos mostrara el nombre del directorio ( `midirectorio` ) y la rama principal donde se esta trabajando ( `master` ). **Ejm** : `midirectorio master`
+  > **Nota** : Despues de ingresar el comando ( `git init` ) la terminal nos mostrara el nombre del directorio ( `midirectorio` ) y la rama principal donde se esta trabajando ( `master` ). **Ejm** : `midirectorio master`
 * `git brach -m main` : Permite que git cambie el nombre de la rama principal a  `main`
 *  `git status` : Permite que git nos muestre el estado en el cual esta nuestra carpeta.
    > **Nota** : `git status` nos muestra en la terminal las siguientes sentencias :
    >
-   >  ``` 
+   >  ```bash 
    >  On branch main
    > 
    >  No commits yet
@@ -48,6 +46,24 @@ Antes de utilizar los comandos basicos de git debemos configurar git ,en nuestra
    > Estas sentencias nos indican que en la rama principal ( `main` ) aun no se ha hecho un `commit` y que tambien si queremos agregar un archivo para hacer nuestro primer `commit ` debemos utilzar el comando `git add`
 *  `git add miarchivo` : Comando que nos permite agregar un archivo. 
    > **Ejm** : `git add README.md`
+   >
+   > **Nota** : Si luego de escribir `git add README.md` escribimos el comando `git status` , la terminal nos mostrara las siguientes sentencias
+   >
+   >  ```bash 
+   >  On branch main
+   > 
+   >  No commits yet
+   >  
+   >  Changes to be committed:
+   >  (use "git rm --cached <file>..." to unstage)
+   >         new file:   README.md
+   > 
+   >   nothing added to commit but untracked   files present (use "git add" to track)
+   >  ``` 
+
+* `git add .` : Comando que nos permite agregar todos los archivos existentes dentro de nuestro directorio.
+* `git commit -m "Este es mi primer commit"` : Comando que nos permite realizar nuestro primer commit (la primera version/fotografia de nuestro archivo)
+* `git log` : Comando que nos permite verificar si el primer commit se hizo de manera correcta. Este comando nos muestra el **commit**, el **Autor** y la **fecha** cuando fue creado el commit.
 * `git --help`, `git -h` : Comando que nos ayuda a ver algunos comando basicos (en este caso de git). 
 
 
