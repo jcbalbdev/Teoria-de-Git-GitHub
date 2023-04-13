@@ -64,8 +64,12 @@ Antes de utilizar los comandos basicos de git debemos configurar git ,en nuestra
 * `git add .` : Comando que nos permite agregar todos los archivos existentes dentro de nuestro directorio.
 * `git commit -m "Este es mi primer commit"` : Comando que nos permite realizar nuestro primer commit (la primera version/fotografia de nuestro archivo)
 * `git log` : Comando que nos permite verificar si el primer commit se hizo de manera correcta. Este comando nos muestra el **commit**, el **Autor** y la **fecha** cuando fue creado el commit.
+* `git log --graph` : Comando que nos permite estilizar la informacion mostrada por `git log`.
+* `git log --graph --pretty=oneline` : Comando que nos permite resumir en una sola linea la informacion mostrada por `git log` (nos muestra el hash ( identificador ) del **commit** y el nombre que le pusimos).
+* `git log --graph --decorate --all --online ` : Comando que nos permite resumir en una sola linea la informacion mostrada por `git log` (nos muestra un hash ( identificador ) acortado del **commit** y el nombre que le pusimos).
 * `git checkout ./README.md` : Comando que nos permite volver a una version anterior de un archivo partiendo desde una version que no fue agregada con `git add`.
 * `git reset` : Comando que nos permite ver que ficheros han sido modificados pero aun no han sido agregados a la rama ,para luego aplicar el comando `git checkout` y volver a su version anterior.
+* 
 * `git --help`, `git -h` : Comando que nos ayuda a ver algunos comando basicos (en este caso de git). 
 
 
