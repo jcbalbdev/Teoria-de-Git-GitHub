@@ -71,10 +71,12 @@ Antes de utilizar los comandos basicos de git debemos configurar git ,en nuestra
 * `git log --graph` : Comando que nos permite estilizar la informacion mostrada por `git log`.
 * `git log --graph --pretty=oneline` : Comando que nos permite resumir en una sola linea la informacion mostrada por `git log` (nos muestra el hash ( identificador ) del **commit** y el nombre que le pusimos).
 * `git log --graph --decorate --all --online ` : Comando que nos permite resumir en una sola linea la informacion mostrada por `git log` (nos muestra un hash ( identificador ) acortado del **commit** y el nombre que le pusimos).
+* `git reflog` : Comando que nos muestra de manera mucho mas detallada todos los cambios que se han hecho hasta ahora. 
 * `git checkout ./README.md` : Comando que nos permite volver a una version anterior de un archivo partiendo desde una version que no fue agregada con `git add`.
+* `git reset` : Comando que nos permite ver que ficheros han sido modificados pero aun no han sido agregados a la rama ,para luego aplicar el comando `git checkout` y volver a su version anterior.
 * `git checkout (ingrese el hash)` : Comando que nos permite ir al commit cuyo hash sea el ingresado.
 * `git checkout HEAD` : Comando que despues de haber ingresado `git checkout (ingrese el hash)` coloca la cabeza de la rama en dicho hash.
-* `git reset` : Comando que nos permite ver que ficheros han sido modificados pero aun no han sido agregados a la rama ,para luego aplicar el comando `git checkout` y volver a su version anterior.
+* `git reset --hard (ingrese el hash)` : Comando que nos permite resetear todos los cambios que se han hecho hasta el hash ingresado.
 * `git config --global alias.ponunalias "log --graph"` : Comando que nos permite poner un alias a un comando de git ( en nuestro caso estamos poniendo el alias de **ponunalias** al comando `log --graph` ) .
 * `git diff` : Comando que nos muestra los cambios en un archivo sin necesidad de haberlos guardado.
 * 
