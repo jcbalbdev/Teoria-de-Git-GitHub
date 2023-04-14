@@ -76,7 +76,7 @@ Antes de utilizar los comandos basicos de git debemos configurar git ,en nuestra
 * `git checkout HEAD` : Comando que despues de haber ingresado `git checkout (ingrese el hash)` coloca la cabeza de la rama en dicho hash.
 * `git reset` : Comando que nos permite ver que ficheros han sido modificados pero aun no han sido agregados a la rama ,para luego aplicar el comando `git checkout` y volver a su version anterior.
 * `git config --global alias.ponunalias "log --graph"` : Comando que nos permite poner un alias a un comando de git ( en nuestro caso estamos poniendo el alias de **ponunalias** al comando `log --graph` ) .
-* `git diff` : Comando que nos muestra los cambios en un archivo sin necesidad de hacer un commit.
+* `git diff` : Comando que nos muestra los cambios en un archivo sin necesidad de haberlos guardado.
 * 
 * `git --help`, `git -h` : Comando que nos ayuda a ver algunos comando basicos (en este caso de git).
 
