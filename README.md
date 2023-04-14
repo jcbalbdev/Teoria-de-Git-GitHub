@@ -1,6 +1,9 @@
 # **Git y GitHub**
 
+## **Git**
+
 ## **Instalacion de Git**
+
 Ir a la pagina de 
 [git](https://git-scm.com/ "git")
 y descargar la ultima version segun el sistema operativo que tengas.
@@ -27,6 +30,8 @@ Antes de utilizar los comandos basicos de git debemos configurar git ,en nuestra
 * `git config --global user.email` "micorreo@gmail.com" : Configurando el email del usuario a nivel global.
 
 ## **Comandos utiles**
+
+* `git --help`, `git -h` : Comando que nos ayuda a ver algunos comando basicos (en este caso de git).
 * `git init` : Permite que git funcione en una carpeta o directorio (raiz) seleccionado. Con este comando inicializamos un control de versiones en la carpeta seleccionada.
 
   > **Nota** : Despues de ingresar el comando ( `git init` ) la terminal nos mostrara el nombre del directorio ( `midirectorio` ) y la rama principal donde se esta trabajando ( `master` ). **Ejm** : `midirectorio master`
@@ -93,7 +98,11 @@ Antes de utilizar los comandos basicos de git debemos configurar git ,en nuestra
 * `git stash list` : Comando que nos sirve para mostrar los commit locales creados por `git stash`.
 * `git stash pop` : Comando que nos sirve para recuperar el commit local creado por `git stash`.
 * `git stash drop` : Comando que nos sirve para borrar un commit local creado por `git stash`.
-* `git --help`, `git -h` : Comando que nos ayuda a ver algunos comando basicos (en este caso de git).
+* `git branch` : Comando que sirve para ver las ramas creadas.
+* `git branch -d (ingrese el nombre de la rama)` : Comando que sirve para eliminar la rama ingresada.
+
+## **GitHub**
+
 
 
 
