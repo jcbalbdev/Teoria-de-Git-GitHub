@@ -67,16 +67,20 @@ Antes de utilizar los comandos basicos de git debemos configurar git ,en nuestra
   
   > **Nota** : Si queremos que git ignore un archivo o varios archivos debemos agregar el archivo `.gitignore` en nuestra carpeta principal. Dentro de esta carpeta debemos escribir el archivo o los archivos que deseamos ignorar ,de esta manera `**/.archivo_ignorado.txt` luego escribimos el comando `git add .gitignore` para agregarlo a la rama y que esta sepa que archivos ignorar.
 * `git commit -m "Este es mi primer commit"` : Comando que nos permite realizar nuestro primer commit (la primera version/fotografia de nuestro archivo)
+<!-- *aqui comienza los logs -->
 * `git log` : Comando que nos permite verificar si el primer commit se hizo de manera correcta. Este comando nos muestra el **commit**, el **Autor** y la **fecha** cuando fue creado el commit ( nos muestra todo lo que hemos estado haciendo hasta ahora ).
 * `git log --graph` : Comando que nos permite estilizar la informacion mostrada por `git log`.
 * `git log --graph --pretty=oneline` : Comando que nos permite resumir en una sola linea la informacion mostrada por `git log` (nos muestra el hash ( identificador ) del **commit** y el nombre que le pusimos).
 * `git log --graph --decorate --all --online ` : Comando que nos permite resumir en una sola linea la informacion mostrada por `git log` (nos muestra un hash ( identificador ) acortado del **commit** y el nombre que le pusimos).
-* `git reflog` : Comando que nos muestra de manera mucho mas detallada todos los cambios que se han hecho hasta ahora. 
+* `git reflog` : Comando que nos muestra de manera mucho mas detallada todos los cambios que se han hecho hasta ahora.
+* `git tag "mi_etiqueta"` : Comando que nos permite poner una etiqueta ( mi_etiqueta ) a todo lo que hemos avanzado hasta el ultimo commit.
+<!-- *aqui comienza los checkout --> 
 * `git checkout ./README.md` : Comando que nos permite volver a una version anterior de un archivo partiendo desde una version que no fue agregada con `git add`.
 * `git reset` : Comando que nos permite ver que ficheros han sido modificados pero aun no han sido agregados a la rama ,para luego aplicar el comando `git checkout` y volver a su version anterior.
 * `git checkout (ingrese el hash)` : Comando que nos permite ir al commit cuyo hash sea el ingresado.
 * `git checkout HEAD` : Comando que despues de haber ingresado `git checkout (ingrese el hash)` coloca la cabeza de la rama en dicho hash.
 * `git reset --hard (ingrese el hash)` : Comando que nos permite resetear todos los cambios que se han hecho hasta el hash ingresado.
+<!-- *aqui comienzan otros git -->
 * `git config --global alias.ponunalias "log --graph"` : Comando que nos permite poner un alias a un comando de git ( en nuestro caso estamos poniendo el alias de **ponunalias** al comando `log --graph` ) .
 * `git diff` : Comando que nos muestra los cambios en un archivo sin necesidad de haberlos guardado.
 * 
