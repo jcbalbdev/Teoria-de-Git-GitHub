@@ -85,7 +85,14 @@ Antes de utilizar los comandos basicos de git debemos configurar git ,en nuestra
 <!-- *aqui comienzan otros git -->
 * `git config --global alias.ponunalias "log --graph"` : Comando que nos permite poner un alias a un comando de git ( en nuestro caso estamos poniendo el alias de **ponunalias** al comando `log --graph` ) .
 * `git diff` : Comando que nos muestra los cambios en un archivo sin necesidad de haberlos guardado.
-* 
+<!-- * git para equipos -->
+* `git branch (ingrese el nombre de la nueva rama)` : Comando que nos permite crear una nueva rama. 
+* `git switch (ingrese el nombre de una rama)` : Comando que nos permite cambiar de rama.
+* `git merge (ingrese el nombre de una rama)` : Comando que nos permite mergear ( fusionar ) la rama ingresada con la rama en donde se esta trabajando.
+* `git stash` : Comando que nos sirve para crear un commit local que no afecta a la rama principal.
+* `git stash list` : Comando que nos sirve para mostrar los commit locales creados por `git stash`.
+* `git stash pop` : Comando que nos sirve para recuperar el commit local creado por `git stash`.
+* `git stash drop` : Comando que nos sirve para borrar un commit local creado por `git stash`.
 * `git --help`, `git -h` : Comando que nos ayuda a ver algunos comando basicos (en este caso de git).
 
 
