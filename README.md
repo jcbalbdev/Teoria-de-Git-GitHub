@@ -30,7 +30,7 @@ Antes de utilizar los comandos basicos de git debemos configurar git ,en nuestra
 * `git init` : Permite que git funcione en una carpeta o directorio (raiz) seleccionado. Con este comando inicializamos un control de versiones en la carpeta seleccionada.
 
   > **Nota** : Despues de ingresar el comando ( `git init` ) la terminal nos mostrara el nombre del directorio ( `midirectorio` ) y la rama principal donde se esta trabajando ( `master` ). **Ejm** : `midirectorio master`
-* `git brach -m main` : Permite que git cambie el nombre de la rama principal a  `main`
+* `git branch -m main` : Permite que git cambie el nombre de la rama principal a  `main`
 *  `git status` : Permite que git nos muestre el estado en el cual esta nuestra carpeta.
    > **Nota** : `git status` nos muestra en la terminal las siguientes sentencias :
    >
@@ -63,7 +63,7 @@ Antes de utilizar los comandos basicos de git debemos configurar git ,en nuestra
    >   nothing added to commit but untracked   files present (use "git add" to track)
    >  ``` 
 
-* `git add .` : Comando que nos permite agregar todos los archivos existentes dentro de nuestro directorio.
+* `git add .` : Comando que nos permite agregar todos los archivos existentes de nuestro directorio.
 * `git commit -m "Este es mi primer commit"` : Comando que nos permite realizar nuestro primer commit (la primera version/fotografia de nuestro archivo)
 * `git log` : Comando que nos permite verificar si el primer commit se hizo de manera correcta. Este comando nos muestra el **commit**, el **Autor** y la **fecha** cuando fue creado el commit.
 * `git log --graph` : Comando que nos permite estilizar la informacion mostrada por `git log`.
