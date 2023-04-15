@@ -2,6 +2,10 @@
 
 ## **Git**
 
+## **¿ Que es Git ?**
+
+Es un sistema de control de versiones en forma local.
+
 ## **Instalacion de Git**
 
 Ir a la pagina de 
@@ -102,6 +106,36 @@ Antes de utilizar los comandos basicos de git debemos configurar git ,en nuestra
 * `git branch -d (ingrese el nombre de la rama)` : Comando que sirve para eliminar la rama ingresada.
 
 ## **GitHub**
+
+## **¿ Que es GitHub ?**
+
+Es un lugar ( red social para desarrolladores ) donde puedes guardar de forma segura , en un repositorio , el codigo en donde estas trabajando y a su vez interactuar con otros programadores que tambien estan trabajando en el mismo codigo o en otro.
+
+## **Secciones**
+
+* **Overview** : Seccion donde puedes ver tu perfil de usuario.
+* **Repositories** : Seccion donde puedes ver los repositorios que haz creado.
+* **Stars** : Seccion donde puedes ver tus repositorios favoritos.
+
+## **¿Como se crea un repositorio?**
+
+**1. Por Git**
+
+
+
+**2. Por GitHub**
+
+* Haz click en el boton **New**
+* Escribe el **nombre** de tu nuevo repositorio.
+* Escribe una **descripcion** de tu nuevo repositorio.
+* Elige si quieres que tu nuevo repositorio sea **publico** o **privado**.
+* Haz click en agregar un archivo **README.md** para crear un archivo que contenga la documentacion de tu proyecto.
+* Añade bajo que **licencia** esta trabajara tu proyecto.
+* Presiona el boton **Create repository**.
+  
+
+## **Autenticacion SSH**
+
 
 
 
