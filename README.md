@@ -1,5 +1,6 @@
 # **Git y GitHub**
-
+[![Git](https://img.shields.io/badge/Git-fff1f2?style=for-the-badge&logo=git&logoColor=fb7185&labelColor=1c1917)]()
+[![Github](https://img.shields.io/badge/Github-fafaf9?style=for-the-badge&logo=github&logoColor=fafaf9&labelColor=1c1917)]()
 ## **Git**
 
 ## **¿ Que es Git ?**
@@ -142,69 +143,3 @@ Es un lugar ( red social para desarrolladores ) donde puedes guardar de forma se
 
 
 
-<!-- * algunos codigos de markdown -->
-**tipos de texto**
-
-este es un *texto en italica*
-
-este es un **texto en negrita**
-
-este es un ~~texto tachado~~
-
-**listas desordenadas :**
-
-* hola
-* hi
-
-**listas ordenadas :**
-
-1. uno
-2. dos
-
-**enlaces**
-
-**1. tipo 1**
-
-[texto alternativo](www.google.com)
-
-**2. tipo 2**
-
-[texto alternativo](www.google.com "google")
-
-> **esta es una cita**
-> 
-> *esta es una cita*
-
-**lineas horizontales**
-
----
----
-
-**bloques de codigos**
-
-`console.log("hi code!")`
-
-```python
-print("hello!!")
-```
-```html
-<h1>heading</h1>
-```
-
-**tablas**
-
-| Nombre | Apellidos |
-|--------|-----------|
-| Jose   | Balbin    |
-
-**imagenes**
-
-![imagen](www.google.com "google")
-
-<!--* GITHUB MARKDOWN -->
-**GITHUB MARKDOWN**
-
-emojis 
-
-* simbolo de cuernos  ( :metal: )
-* estrella ( :star: )
