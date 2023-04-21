@@ -9,12 +9,9 @@ Es un sistema de control de versiones en forma local.
 
 ## **Instalacion de Git**
 
-Ir a la pagina de 
-[git](https://git-scm.com/ "git")
-y descargar la ultima version segun el sistema operativo que tengas.
+Ir a la pagina de [git](https://git-scm.com/ "git") y descargar la ultima version segun el sistema operativo que tengas.
 
 > Para verificar que instalaste de manera correcta "Git" ,ve a tu terminal e ingresa : `git --version` o `git -v` 
-
 > ### **Algunos comandos de la terminal que vale la pena saber**
 >
 > * `ls` : Se muestra un listado de todos los directorios que se tienen dentro de una carpeta.
